@@ -3,7 +3,7 @@ import { Outlet, useNavigate } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Sidebar from '../components/Sidebar'
 import { SignIn, useUser } from '@clerk/clerk-react'
-import LOGO from '../assets/logo.png'
+import LOGO from '../assets/LOGO.png'
 
 const Layout = () => {
   const navigate = useNavigate()
