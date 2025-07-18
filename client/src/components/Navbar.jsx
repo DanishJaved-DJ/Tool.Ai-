@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { useClerk, UserButton, useUser } from '@clerk/clerk-react'
-import LOGO from '../assets/logo.png'
+import LOGO from '../assets/LOGO.png'
 
 const Navbar = () => {
   const navigate = useNavigate()
